@@ -26,10 +26,10 @@ document.querySelector('.nav-container-mobile ul').addEventListener('click', ()=
 window.addEventListener('scroll', ()=>{
     if(scrollY > 120){
         nav_desktop.classList.add('scroll');
-        console.log('scroll');
     }
     else{
         nav_desktop.classList.remove('scroll');
     }
-
 })
+
+// complete page
